@@ -216,7 +216,7 @@
       async function selectCity(city) {
         const horizontalFlex = document.querySelector(".horizontal-flex");
         const response = await fetch(
-          `http://api.aladhan.com/v1/calendarByCity/${new Date().getFullYear()}/${
+          `https://api.aladhan.com/v1/calendarByCity/${new Date().getFullYear()}/${
             new Date().getMonth() + 1
           }?city=${city}&country=Libya&method=2`
         );
